@@ -4,9 +4,7 @@ A two-player Connect Four game written in C with the [raylib](https://www.raylib
 
 I made this as a first-year university student to practise C, and it grew from a plain text-book style game into something I actually enjoyed polishing.
 
-<!-- Add a screenshot or GIF here once you have one:
-![Gameplay](screenshots/gameplay.png)
--->
+![Gameplay](screenshots/gameplay.gif)
 
 ## How to play
 
@@ -50,7 +48,8 @@ If `make` isn't found, try `mingw32-make`. If the compiler can't find raylib, te
 make RAYLIB_PATH=C:/raylib/raylib/src
 ```
 
-**Linux / macOS:** install raylib, then run `make` and `./connect4`.
+**Linux:** install raylib (the raylib wiki lists the packages it needs), then run `make` and `./connect4`. 
+The Makefile also has macOS settings, but I haven't tested those.
 
 **Without make** (Windows example):
 
@@ -58,7 +57,7 @@ make RAYLIB_PATH=C:/raylib/raylib/src
 gcc main.c connect.c cabinet.c -o connect4.exe -I C:/raylib/raylib/src -L C:/raylib/raylib/src -lraylib -lopengl32 -lgdi32 -lwinmm
 ```
 
-I have only tested it on Windows.
+Tested on Windows 11 and Ubuntu 26.04.
 
 ## Project structure
 
@@ -97,7 +96,7 @@ I have only tested it on Windows.
 - Key presses are ignored while a piece is falling
 - connect.c mixes the game rules with drawing code. I'd like to separate them but am a little lazy
 - No automated tests, I only tested by playing
-- Only tested on Windows
+- Not tested on macOS
 
 ## Future plans
 
