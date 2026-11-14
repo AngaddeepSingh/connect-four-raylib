@@ -6,6 +6,9 @@ I made this as a first-year university student to practise C, and it grew from a
 
 ![Gameplay](screenshots/gameplay.gif)
 
+**[Download for Windows](https://github.com/AngaddeepSingh/connect-four-raylib/releases/latest)**: unzip it and run `connect4.exe`.
+Windows may show a "Windows protected your PC" warning because the file isn't signed. Click "More info", then "Run anyway".
+
 ## How to play
 
 - Two players share one keyboard: Pink and Yellow. A random player goes first.
