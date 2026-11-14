@@ -1,0 +1,4 @@
+# Build output
+*.o
+connect4
+connect4.exe
