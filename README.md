@@ -97,7 +97,7 @@ Tested on Windows 11 and Ubuntu 26.04.
 
 - Only two human players, and there is no menu or score tracking
 - Key presses are ignored while a piece is falling
-- connect.c mixes the game rules with drawing code. I'd like to separate them but am a little lazy
+- connect.c mixes the game rules with drawing code. I'd like to separate them.
 - No automated tests, I only tested by playing
 - Not tested on macOS
 
@@ -110,4 +110,4 @@ Tested on Windows 11 and Ubuntu 26.04.
 
 ## Credits and honesty note
 
-Built with [raylib](https://www.raylib.com/). I wrote the game logic from scratch. For the visual side I used AI assistants. I'm happy to explain any part of the code.
+Built with [raylib](https://www.raylib.com/). I wrote the game logic from scratch. For the visual side I used AI assistants (Mostly claud for giving function names and syntax changes). I'm happy to explain any part of the code.
